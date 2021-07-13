@@ -30,7 +30,7 @@ public class JobController {
 		return service.getAllJob();
 	}
 
-	@PostMapping("/addjob")
+	@PostMapping("/postjob")
 	public Job addEmp(@RequestBody Job job) {
 		LOG.info("AddEmp");
 		return service.addJob(job);

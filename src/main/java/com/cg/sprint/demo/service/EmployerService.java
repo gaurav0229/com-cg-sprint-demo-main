@@ -23,7 +23,7 @@ public class EmployerService {
 		return repository.findAll();
 	}
 
-	// Add Employer
+	// Register Employer
 	public Employer addEmployer(Employer emp) {
 		LOG.info("addEmployer");
 		return repository.save(emp);

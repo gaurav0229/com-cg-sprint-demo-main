@@ -13,11 +13,7 @@ public class Hello {
 	Logger LOG = LoggerFactory.getLogger(Hello.class);
 
 	// URL - http://localhost:8082/hello
-	@RequestMapping("/") // endpoint, API
-	public String wel() {
-		LOG.info("Hello world! INFO");
-		return "Wlcome !";
-	}
+	
 	@RequestMapping("/hello") // endpoint, API
 	public String hello() {
 		LOG.info("Hello world! INFO");
